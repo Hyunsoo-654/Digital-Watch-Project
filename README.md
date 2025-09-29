@@ -39,7 +39,9 @@
 ## 🖼️ Block Diagram
 <img width="802" height="457" alt="image" src="https://github.com/user-attachments/assets/77ba4bb7-b48a-4f41-85aa-5d762cdea6a0" />
 
-
+## 📝 My Work
+ - FND Top Merge
+ - DHT11 Sensor Design
 
 ## 🧹 개선 사항
 초기 버전에서 SetUp Time Violation 발생

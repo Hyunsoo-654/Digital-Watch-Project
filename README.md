@@ -36,7 +36,8 @@
 각 명령은 ASCII 코드로 입력됩니다. (R = 0x52, C = 0x43, ...)
 
 ## 🖼️ Block Diagram
-![alt text](immage/image.png)
+<img width="802" height="457" alt="image" src="https://github.com/user-attachments/assets/77ba4bb7-b48a-4f41-85aa-5d762cdea6a0" />
+
 
 
 ## 🧹 개선 사항

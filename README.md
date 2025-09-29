@@ -45,7 +45,7 @@
 1. SR04 및 DHT11 Sender 에서 너무 많은 case문을 사용  
 2. counter에서 큰 숫자를 %58 연산 사용
 
-```
+```verilog
 DONE: begin
     dist_next = duration_reg / 58;
     done_next = 1;
@@ -54,7 +54,7 @@ end
 ```
 
 개선 후: 
-```
+```verilog
 DIVIDE: begin
     // shift-and-subtract divider for division by 58
     if (dividend_reg >= 58) begin
@@ -66,7 +66,7 @@ DIVIDE: begin
 end
 ```
 case 문을 if문을 수정하여 더 빠르게 수정
-```
+```verilog
 PREPARE: begin
     if (!prepare_done) begin
         if (btn_sender_up) begin

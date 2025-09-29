@@ -1,4 +1,5 @@
-# Final UART-Controled Sensors + Watch / Stopwatch System on FPGA 
+# Digital Watch Project
+## UART-Controled Sensors + Watch / Stopwatch System on FPGA 
 ## 📝 Overview
 본 프로젝트는 ** UART 통신 기반 Basys-3 및 switch & Button으로 디지털 시계 및 스톱워치, SR04, DHT11 센서 기능을 제어**하는 FPGA 시스템입니다.
 
